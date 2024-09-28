@@ -10,7 +10,7 @@ function App() {
     <>
         
       <Routes>
-        <Route path='/timer' element={<Timer/>} />
+        <Route path='/' element={<Timer/>} />
         <Route path='/button' element={<TimerControl/>} />
         </Routes>  
         
